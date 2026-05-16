@@ -137,7 +137,7 @@ function removeLastProduct() {
         });
 }
 
-loadFromAPI();
+// loadFromAPI();
 
 function loadOffers() {
     var offersList = document.getElementById('offersList');
