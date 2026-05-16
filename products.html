@@ -55,7 +55,7 @@
                 <span>70 EGP</span>
             </div>
         </div>
-        <!-- 
+        
         <h2>Menu Details</h2>
         <table class="menu-table">
             <thead>
@@ -67,8 +67,17 @@
             </thead>
             <tbody id="menuTableBody"></tbody>
         </table> 
-        -->
-    </section>
+        <h2>Add New Item</h2>
+        <label for="newName">Name:</label>
+        <input type="text" id="newName" placeholder="e.g. Americano">
+        <label for="newPrice">Price:</label>
+        <input type="text" id="newPrice" placeholder="e.g. 90 EGP">
+        <label for="newDescription">Description:</label>
+        <input type="text" id="newDescription" placeholder="e.g. Strong black coffee">
+        <button onclick="addProduct()">Add to Menu</button>
+        <button onclick="removeLastProduct()">Remove Last Item</button>
+       
+    <!-- </section>
     <section id="apiSection">
         <h2>Menu Details (from API)</h2>
         <table class="menu-table">
@@ -91,7 +100,7 @@
         <input type="text" id="newDescription" placeholder="e.g. Strong black coffee">
         <button onclick="addProduct()">Add to Menu</button>
         <button onclick="removeLastProduct()">Remove Last Item</button>
-    </section>
+    </section> -->
     <script src="script.js"></script>
 </body>
 
