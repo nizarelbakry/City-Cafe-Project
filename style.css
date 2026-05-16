@@ -22,12 +22,12 @@ body {
 header {
     position: relative;
     overflow: hidden;
+    min-height: 260px;
 }
 
 header img {
-    display: block;
     width: 100%;
-    height: auto;
+    max-height: 400px;
     object-fit: cover;
     border-radius: 0 0 24px 24px;
 }
