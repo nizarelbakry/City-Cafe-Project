@@ -43,7 +43,7 @@ function validateForm() {
     return isValid;
 }
 
-/*
+
  function loadProducts() {
     var menuTableBody = document.getElementById('menuTableBody');
     if (!menuTableBody) return;
@@ -64,7 +64,8 @@ function validateForm() {
 }
 
 loadProducts();
-*/
+
+/*
 function loadFromAPI() {
     var apiTableBody = document.getElementById('apiTableBody');
     if (!apiTableBody) return;
@@ -83,6 +84,7 @@ function loadFromAPI() {
             apiTableBody.innerHTML = output;
         });
 }
+*/
 
 function addProduct() {
     var newName = document.getElementById('newName').value.trim();
