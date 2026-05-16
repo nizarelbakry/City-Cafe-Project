@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Espresso",
+      "price": "50 EGP",
+      "description": "A bold, rich shot to kickstart your day."
+    },
+    {
+      "id": "2",
+      "name": "Cappuccino",
+      "price": "130 EGP",
+      "description": "Smooth espresso topped with creamy foam."
+    },
+    {
+      "id": "3",
+      "name": "Latte",
+      "price": "120 EGP",
+      "description": "Milk-forward and gentle with a silky texture."
+    },
+    {
+      "id": "4",
+      "name": "Mocha",
+      "price": "140 EGP",
+      "description": "Espresso, chocolate, and steamed milk."
+    },
+    {
+      "id": "5",
+      "name": "Blueberry Pie",
+      "price": "150 EGP",
+      "description": "Sweet and flaky with a rich berry filling."
+    },
+    {
+      "id": "6",
+      "name": "Croissant",
+      "price": "70 EGP",
+      "description": "Buttery, flaky pastry baked fresh every day."
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": "Morning Deal",
+        "description": "Espresso + Croissant",
+        "price": "80 EGP",
+        "discount": "Save 20 EGP"
+    },
+    {
+        "id": 2,
+        "title": "Study Bundle",
+        "description": "Latte + Blueberry Pie",
+        "price": "200 EGP",
+        "discount": "Save 70 EGP"
+    },
+    {
+        "id": 3,
+        "title": "Weekend Special",
+        "description": "Cappuccino + Croissant",
+        "price": "150 EGP",
+        "discount": "Save 30 EGP"
+    },
+    {
+        "id": 4,
+        "title": "Afternoon Deal",
+        "description": "Mocha + any Pastry",
+        "price": "180 EGP",
+        "discount": "Save 50 EGP"
+    },
+    {
+        "id": 5,
+        "title": "Happy Hour",
+        "description": "Any Coffee at special price",
+        "price": "60 EGP",
+        "discount": "Save 40 EGP"
+    }
+]

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/pexels-polina-tankilevitch-4109748.jpg" alt="Cafe Banner">
+        <div class="banner">
+            <h1>City Cafe</h1>
+            <p>Freshly brewed coffee & homemade pastries in the heart of the city.</p>
+            <a class="banner_button" href="products.html" target="_blank">View Our Menu</a>
+        </div>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Menu</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section id="about">
+
+        <h2>About Us</h2>
+        <p>Welcome to City Cafe, your cozy neighborhood spot for the best coffee and pastries. We use locally sourced
+            beans and bake our treats fresh every morning. Whether you're here to work, relax, or catch up with friends,
+            our warm atmosphere and friendly staff are here to make your day better.</p>
+        <div class="cards">
+            <div>
+                <img src="images/montatip-lilitsanong-hU2ieCpAoDI-unsplash.jpg" alt="Coffee Beans">
+                <h3>Fresh Pastries</h3>
+                <p>Enjoy our daily selection of croissants, muffins, and more, baked every morning.</p>
+            </div>
+            <div>
+                <img src="images/pexels-chevanon-302899.jpg" alt="Coffee">
+                <h3>Specialty Coffee</h3>
+                <p>From classic espresso to creative lattes, our baristas craft every cup with care.</p>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 30px;">
+            <button id="specialBtn" onclick="showSpecial()">Today's Special</button>
+            <p id="specialText" style="display: none; margin-top: 16px;">🌟 Today's Special: Caramel Latte + Croissant
+                for only 150 EGP!</p>
+        </div>
+    </section>
+
+    <section id="offers">
+        <h2>Today's Offers</h2>
+        <div id="offersList"></div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p><strong>Address:</strong> Giza 6 October - El Hussary</p>
+            <p><strong>Phone:</strong> 01010252168</p>
+            <p><strong>Email:</strong> hello@citycafe.com</p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/201010252168" target="_blank">Chat with us on
+                    WhatsApp</a></p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
