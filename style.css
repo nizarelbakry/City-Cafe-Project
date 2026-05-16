@@ -19,6 +19,14 @@ body {
     line-height: 1.5;
 }
 
+/* Image Performance Optimization */
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
 header {
     position: relative;
     overflow: hidden;
@@ -30,6 +38,9 @@ header img {
     max-height: 400px;
     object-fit: cover;
     border-radius: 0 0 24px 24px;
+    /* Performance: Enable GPU acceleration and optimize rendering */
+    will-change: contents;
+    contain: layout style paint;
 }
 
 .banner {
@@ -154,6 +165,9 @@ button:hover {
     height: 220px;
     object-fit: cover;
     border-radius: 8px;
+    /* Performance: Optimize image loading */
+    aspect-ratio: 1;
+    contain: layout style paint;
 }
 
 .menu {
@@ -177,6 +191,9 @@ button:hover {
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 16px;
+    /* Performance: Optimize image loading and rendering */
+    aspect-ratio: 1.57;
+    contain: layout style paint;
 }
 
 .menu-item:hover {
