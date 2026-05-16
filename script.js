@@ -112,7 +112,7 @@ function addProduct() {
             document.getElementById('newName').value = '';
             document.getElementById('newPrice').value = '';
             document.getElementById('newDescription').value = '';
-            loadFromAPI();
+            // loadFromAPI();
         });
 }
 
